@@ -1,23 +1,43 @@
+*{
+    box-sizing:border-box;
+    
+}
+
 h1{
     font-family:'Oswald','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:yellowgreen;
-    background-color: blue;
+    color:rgb(197, 245, 101);
+    background-color: rgb(66, 66, 205);
+    border:2px solid rgb(255, 168, 7);
+    border-radius:5px;
+    padding-left:10px;
+    margin-bottom:10px;
+    font-size:medium;
+    width:150px;
+
 }
 
 #imp{
     font-family:Arial, Helvetica, sans-serif;
     font-style:italic;
     font-weight:bold;
-    color:chocolate;
+    color:rgb(234, 150, 90);
+    border:5px double rgb(200, 184, 3);
+    padding:10px;
+    margin-bottom: 20px;
+
 }
 
 .bio{
     font-family:Arial, Helvetica, sans-serif;
     font-style:italic;
     font-weight:lighter;
-    color:cyan;
+    color:rgb(100, 135, 11);
+    border: 5px dotted rgb(40, 97, 231);
+    padding:20px;
 }
 
 body{
-    background-color:bisque;
+    background-color:rgb(166, 244, 220);
+    border:3px solid blue;
+    padding:10px;
 }
